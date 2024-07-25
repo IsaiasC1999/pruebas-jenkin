@@ -37,7 +37,7 @@ pipeline {
                         
                         sshCommand remote: remote, command: "ls /home/desarrollo/isaias"
 
-                        sshCommand remote: remote, command: "mkdir /home/desarrollo/isaias/prueba-mia"
+                        sshCommand remote: remote, command: "mkdir /home/desarrollo/isaias/prueba-jinkin-git"
                         
                         echo "Me conecte al 15"
                         
